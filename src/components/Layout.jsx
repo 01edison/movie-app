@@ -38,6 +38,7 @@ const Layout = ({ setTrigger, trigger }) => {
               className="search-box"
               value={searchValue}
               onChange={handleChange}
+              required
             />
           </form>
         </div>

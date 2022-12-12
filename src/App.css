@@ -133,9 +133,33 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   .theatre-section {
     height: 257px;
+  }
+  .theatre-section > span {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 36px;
+    position: absolute;
+    width: 273px;
+    left: 50px;
+    top: 98px;
+  }
+  .main-body {
+    top: 25rem;
+    padding-left: 28px;
+  }
+  .movie {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .theatre-section {
+    height: 237px;
   }
   .theatre-section > span {
     font-size: 28px;
