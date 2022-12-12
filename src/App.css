@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+.header {
+  position: absolute;
+  width: 1440px;
+  height: 140px;
+  left: 0px;
+  top: 0px;
+  background: #292929;
+}
+
+.title-container {
+  box-sizing: border-box;
+  position: absolute;
+  width: 193px;
+  height: 60px;
+  left: 77px;
+  top: 40px;
+  border: 1px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-container > P {
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.theatre-section {
+  background-image: url("/theatre.jpg");
+  background-size: cover;
+  width: 1440px;
+  height: 550px;
+  position: absolute;
+  top: 138px;
+  left: 0;
+}
+
+.theatre-section > span {
+  color: #fff;
+  position: absolute;
+  font-family: "DM Sans", sans-serif;
+  left: 77px;
+  top: 109px;
+  font-size: 72px;
+  width: 490px;
+  height: 282px;
+  line-height: 94px;
+  letter-spacing: -0.05em;
+}
+
+.main-body {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  top: 100vh;
+  padding-left: 77px;
+  padding-top: 40px;
+}
+
+.search-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.search-section label {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31.25px;
+}
+.search-box {
+  width: 85%;
+  height: 30px;
+}
+
+.home-category {
+  width: 3500px;
+  display: flex;
+  gap: 13px;
+}
+
+.category-name {
+  font-family: "DM Sans", sans-serif;
+}
+
+.movie {
+  width: 300px;
+  height: 300px;
+  background-color: #000;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.movie span {
+  color: #fff;
+  font-size: 24px;
+}
+
+.search-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media screen and (max-width: 834px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 140px;
+  }
+  .title-container {
+    position: static;
+  }
+  .main-body {
+    top: 45rem;
+  }
+  .theatre-section {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .theatre-section > span {
+    position: static;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .theatre-section {
+    height: 257px;
+  }
+  .theatre-section > span {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 36px;
+    position: absolute;
+    width: 273px;
+    left: 24px;
+    top: 98px;
+  }
+  .main-body {
+    top: 25rem;
+    padding-left: 28px;
+  }
+  .movie {
+    width: 200px;
+    height: 200px;
+  }
+}
