@@ -2,7 +2,7 @@
 
 .header {
   position: absolute;
-  width: 1440px;
+  width: 100vw;
   height: 140px;
   left: 0px;
   top: 0px;
@@ -31,7 +31,7 @@
 .theatre-section {
   background-image: url("/theatre.jpg");
   background-size: cover;
-  width: 1440px;
+  width: 100vw;
   height: 550px;
   position: absolute;
   top: 138px;
@@ -52,7 +52,7 @@
 }
 
 .main-body {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   position: relative;
   top: 100vh;
@@ -78,7 +78,7 @@
 }
 
 .home-category {
-  width: 3500px;
+  /* width: 3500px; */
   display: flex;
   gap: 13px;
 }
